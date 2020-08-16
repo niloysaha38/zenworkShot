@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet")
+
+/*font-family: 'Poppins', sans-serif;*/
+
+body{
+	font-family: 'Inter', sans-serif;
+	color: #3c3768;
+}
+header{}	
+.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+/*
+background: -moz-linear-gradient(left,  rgba(156,88,110,1) 0%, rgba(243,117,116,0.96) 100%); 
+background: -webkit-linear-gradient(left,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%); 
+background: linear-gradient(to right,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c586e', endColorstr='#f5f37574',GradientType=1 ); 
+*/
+
+.search-icon{}
+.search-icon button{
+	background: -moz-linear-gradient(left,  rgba(156,88,110,1) 0%, rgba(243,117,116,0.96) 100%); 
+background: -webkit-linear-gradient(left,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%); 
+background: linear-gradient(to right,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c586e', endColorstr='#f5f37574',GradientType=1 ); 
+    border-radius: 50%;
+    color: #f7f3f3;
+    padding: 0 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 0 20px #9d586e;
+}
+.search-icon button:hover{
+	color:#fff;
+
+}
+.search-icon .dropdown-toggle::after {
+    content: none;
+    }
+.search-icon .dropdown-menu {
+    
+    top: 100%;
+    right: 0;
+    left: inherit;
+    padding: 0 0 !important
+    }
+.navbar-toggler{
+	border-color: rgb(0,0,0,.0%);
+}
+
+.navbar-toggler span {
+    width: 30px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin: 5px 0;
+    transition-duration: 0.3s;
+}
+.navbar-toggler span:nth-child(even) {
+	width: 20px;
+}
+
+.navbar-toggler :hover span {
+	width: 30px;
+}
+
+.navbar-toggler:focus {
+    outline: 0 dotted;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+.banner-content{
+    max-width: 480px;
+    margin-top: 200px;
+}
+.banner-content h1{
+    font-size: 45px;
+    color: #3c3768;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-content p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+.banner-content h5{
+    line-height: 1.8;
+    font-size: 19px;
+}
+.form-inline{}
+.form-inline div{
+    margin-right: 10px;
+}
+.form-inline div input{
+    padding: 11px 20px;
+    height: auto;
+    border: 0;
+    box-shadow: 0 10px 25px #fa7875;
+}
+.form-inline button{
+	background: -moz-linear-gradient(left,  rgba(156,88,110,1) 0%, rgba(243,117,116,0.96) 100%);
+	background: -webkit-linear-gradient(left,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%);
+	background: linear-gradient(to right,  rgba(156,88,110,1) 0%,rgba(243,117,116,0.96) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c586e', endColorstr='#f5f37574',GradientType=1 );
+	padding: 11px 20px;
+	height: auto;
+	border: 0;
+	box-shadow: 0 10px 25px #fa7875;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100;
+}
+.form-inline input:	focus,
+.form-inline button:focus{
+	outline: none;
+	    border-color: #80bdff00;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+}
+
+.form-inline button:hover{
+	color: #fff
+}
+.service-section {
+    padding: : 100px 0;
+    position: relative;
+}
+.service-section img{
+    position: absolute;
+    max-width: 600px;
+    position: absolute;
+}
+.service-section .row{}
+.service-section .row > div{
+    box-shadow: 0 10px 25px #fa787517;
+    padding: 26px;
+    background: #ffffffa8;
+}
+.service-section .row > div h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.service-section .row > div p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+.service-section .row > div a{
+    color: #fa7875;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+}
+.service-section .row > div a  i.fa-minus{
+    margin-left: 6px;
+    margin-right: 2px
+    font-size: 13px;
+
+}
+.service-section .row > div a i{
+	transition-duration: 0.3s;
+
+.service-section .row > div a:hover i{
+	transform:translateX(10px);
+}
